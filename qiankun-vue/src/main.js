@@ -9,7 +9,7 @@ import router from './router'
 //   render: h => h(App)
 // }).$mount('#app')
 
-let instance = null
+// let instance = null
 
 function render(){
   new Vue({
@@ -34,5 +34,5 @@ export async function mount(props){
   render(props)
 }
 export async function unmount(){
-  instance.$destroy()
+  // instance.$destroy()
 }

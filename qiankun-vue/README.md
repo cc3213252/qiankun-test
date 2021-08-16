@@ -7,6 +7,11 @@
 4、npm run serve / localhost:10000
 至此基座调vue子应用也会成功
 
+## 4、实现父往子传值，消除eslint告警
+
+1、应用中mount加载时把props记日志  
+2、基座中应用注册时传值props  
+
 ## 碰到问题
 
 ### __webpack_public_path__ is not defined
