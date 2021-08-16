@@ -5,6 +5,7 @@ module.exports = {
         config.output.library = `${packageName}-[name]`;
         config.output.libraryTarget = 'umd';
         config.output.jsonpFunction = `webpackJsonp_${packageName}`;
+        config.output.publicPath = 'http://localhost:20000/reactApp/';
         return config;
     },
     devServer: (configFunction)=>{
