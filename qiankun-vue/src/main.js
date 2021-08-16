@@ -28,10 +28,11 @@ if (!window.__POWERED_BY_QIANKUN__){
   render()
 }
 // 子组件的协议就ok了
-export async function bootstrap(){};
+export async function bootstrap(){}
 export async function mount(props){
+  console.log(props)
   render(props)
 }
-export async function unmount(props){
+export async function unmount(){
   instance.$destroy()
 }

@@ -5,6 +5,7 @@
 3、配置打包vue.config.js
 打包成umd模式，可以让window挂载的模式   
 4、npm run serve / localhost:10000
+至此基座调vue子应用也会成功
 
 ## 碰到问题
 

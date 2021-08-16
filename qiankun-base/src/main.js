@@ -11,7 +11,7 @@ import {registerMicroApps, start} from 'qiankun'
 const apps = [
   {
     name: 'vueApp', // 应用名
-    entry: "//localhost:10000", // 默认会加载这个html，解析里面的js动态的执行（子应用必须支持跨域）http可以不写
+    entry: "//localhost:10001", // 默认会加载这个html，解析里面的js动态的执行（子应用必须支持跨域）http可以不写
     container: '#vue', // 容器名
     activeRule: '/vue' // 激活的路径
   },
@@ -19,7 +19,8 @@ const apps = [
     name: 'reactApp',
     entry: "//localhost:20000", // 默认会加载这个html，解析里面的js动态的执行（子应用必须支持跨域）
     container: '#react',
-    activeRule: '/react'
+    activeRule: '/react',
+    props: {a:1}
   }
 ]
 registerMicroApps(apps); // 注册应用
