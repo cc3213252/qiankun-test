@@ -10,6 +10,7 @@
 
 ### 无法加载logo.svg
 
-没有办法，改为加载jpg就OK
+实际是public_path路径问题，视频中路径不对，应为'http://localhost:20000/reactApp/'  
+
 
 yarn add react-router-dom
