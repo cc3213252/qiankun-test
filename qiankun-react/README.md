@@ -1,5 +1,6 @@
 ## 5、react应用qiankun改造
 
+创建项目： npx create-react-app qiankun-react   
 1、yarn add react-app-rewired，重写配置文件  
 2、修改package.json中启动脚本  
 3、重写配置文件，config-overrides.js  

@@ -7,7 +7,8 @@
 npm i element-ui -S  
 3、npm install --save core-js  
 4、修改App.vue  
-5、npm run serve测试，可以切换  
+5、修改main.js  
+6、npm run serve测试，可以切换  
 
 ## 2、用qiankun改造基座
 

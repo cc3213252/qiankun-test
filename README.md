@@ -35,3 +35,7 @@ vue应用：
 
 react应用：  
 ![react应用](https://github.com/cc3213252/qiankun-test/raw/master/img/react.png)
+
+## 注意
+
+vue创建项目时，注意选项，要带上Router  
